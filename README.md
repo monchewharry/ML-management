@@ -11,6 +11,7 @@ python run.py
 
 - add hyperparameter tune (no duplicate experiment control)
 - add unittest
+- add docker
 
 ## structure
 
