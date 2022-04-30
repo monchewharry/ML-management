@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Callback	mnist_cnn_sacred.py	/^from keras.callbacks import Callback$/;"	i
+Conv2D	mnist_cnn.py	/^from tensorflow.keras.layers import Conv2D, MaxPooling2D$/;"	i
+Conv2D	mnist_cnn_sacred.py	/^from tensorflow.keras.layers import Conv2D, MaxPooling2D$/;"	i
+Dense	mnist_cnn.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
+Dense	mnist_cnn_sacred.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
+Dropout	mnist_cnn.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
+Dropout	mnist_cnn_sacred.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
+Experiment	mnist_cnn_sacred.py	/^from sacred import Experiment$/;"	i
+Flatten	mnist_cnn.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
+Flatten	mnist_cnn_sacred.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
+K	mnist_cnn.py	/^from tensorflow.keras import backend as K$/;"	i
+K	mnist_cnn_sacred.py	/^from tensorflow.keras import backend as K$/;"	i
+LogMetrics	mnist_cnn_sacred.py	/^    class LogMetrics(Callback):$/;"	c	function:my_main
+MaxPooling2D	mnist_cnn.py	/^from tensorflow.keras.layers import Conv2D, MaxPooling2D$/;"	i
+MaxPooling2D	mnist_cnn_sacred.py	/^from tensorflow.keras.layers import Conv2D, MaxPooling2D$/;"	i
+MongoObserver	mnist_cnn_sacred.py	/^from sacred.observers import MongoObserver$/;"	i
+Sequential	mnist_cnn.py	/^from tensorflow.keras.models import Sequential$/;"	i
+Sequential	mnist_cnn_sacred.py	/^from tensorflow.keras.models import Sequential$/;"	i
+activation	mnist_cnn.py	/^                 activation='relu',$/;"	v
+apply_backspaces_and_linefeeds	mnist_cnn_sacred.py	/^from sacred.utils import apply_backspaces_and_linefeeds$/;"	i
+batch_size	mnist_cnn.py	/^          batch_size=batch_size,$/;"	v
+batch_size	mnist_cnn.py	/^batch_size = 128$/;"	v
+db_name	mnist_cnn_sacred.py	/^    db_name=db_name)$/;"	v
+db_name	mnist_cnn_sacred.py	/^db_name = "sacred_db_1"$/;"	v
+epochs	mnist_cnn.py	/^          epochs=epochs,$/;"	v
+epochs	mnist_cnn.py	/^epochs = 12$/;"	v
+ex	mnist_cnn_sacred.py	/^ex = Experiment("mnist_cnn")$/;"	v
+input_shape	mnist_cnn.py	/^                 input_shape=input_shape))$/;"	v
+input_shape	mnist_cnn.py	/^    input_shape = (1, img_rows, img_cols)$/;"	v
+input_shape	mnist_cnn.py	/^    input_shape = (img_rows, img_cols, 1)$/;"	v
+keras	mnist_cnn.py	/^from tensorflow import keras$/;"	i
+keras	mnist_cnn_sacred.py	/^from tensorflow import keras$/;"	i
+metrics	mnist_cnn.py	/^              metrics=['accuracy'])$/;"	v
+mnist	mnist_cnn.py	/^from tensorflow.keras.datasets import mnist$/;"	i
+mnist	mnist_cnn_sacred.py	/^from tensorflow.keras.datasets import mnist$/;"	i
+model	mnist_cnn.py	/^model = Sequential()$/;"	v
+my_config	mnist_cnn_sacred.py	/^def my_config():$/;"	f
+my_main	mnist_cnn_sacred.py	/^def my_main(batch_size, num_classes, epochs):$/;"	f
+my_metrics	mnist_cnn_sacred.py	/^def my_metrics(_run, logs):$/;"	f
+num_classes	mnist_cnn.py	/^num_classes = 10$/;"	v
+on_epoch_end	mnist_cnn_sacred.py	/^        def on_epoch_end(self, _, logs={}):$/;"	m	class:my_main.LogMetrics
+optimizer	mnist_cnn.py	/^              optimizer=keras.optimizers.Adadelta(),$/;"	v
+score	mnist_cnn.py	/^score = model.evaluate(x_test, y_test, verbose=0)$/;"	v
+url	mnist_cnn_sacred.py	/^    url=url,$/;"	v
+url	mnist_cnn_sacred.py	/^url = '127.0.0.1:27017'$/;"	v
+validation_data	mnist_cnn.py	/^          validation_data=(x_test, y_test))$/;"	v
+verbose	mnist_cnn.py	/^          verbose=1,$/;"	v
+x_test	mnist_cnn.py	/^    x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)$/;"	v
+x_test	mnist_cnn.py	/^    x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)$/;"	v
+x_test	mnist_cnn.py	/^x_test = x_test.astype('float32')$/;"	v
+x_train	mnist_cnn.py	/^    x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)$/;"	v
+x_train	mnist_cnn.py	/^    x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)$/;"	v
+x_train	mnist_cnn.py	/^x_train = x_train.astype('float32')$/;"	v
+y_test	mnist_cnn.py	/^y_test = keras.utils.to_categorical(y_test, num_classes)$/;"	v
+y_train	mnist_cnn.py	/^y_train = keras.utils.to_categorical(y_train, num_classes)$/;"	v
