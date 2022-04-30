@@ -3,6 +3,7 @@ https://www.hhllcks.de/blog/2018/5/4/version-your-machine-learning-models-with-s
 import keras from tensorflow not directly from keras
 """
 # imports {{{
+from pyexpat import model
 from sacred import Experiment
 from sacred.utils import apply_backspaces_and_linefeeds
 from sacred.observers import MongoObserver
@@ -48,7 +49,7 @@ def my_metrics(_run, logs):
 @ex.automain
 def my_main(params_selected):
     x_train, y_train, x_test, y_test, input_shape = make_data(params_selected)
-    model = set_model(params_selected, input_shape)
+    model = set_model(params=params_selected, input_shape=input_shape)
 
     class LogMetrics(Callback):
         def on_epoch_end(self, _, logs={}):

@@ -5,4 +5,4 @@ def train(m, x_train, y_train, x_test, y_test, params, callbacks):
           epochs=params['epochs'],
           verbose=1,
           validation_data=(x_test, y_test),
-          callbacks=[callbacks])
+          callbacks=[callbacks()])
