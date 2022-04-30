@@ -18,18 +18,21 @@ Sequential	src/models/model.py	/^from tensorflow.keras.models import Sequential$
 apply_backspaces_and_linefeeds	run.py	/^from sacred.utils import apply_backspaces_and_linefeeds$/;"	i
 db_name	run.py	/^    db_name=db_name)$/;"	v
 db_name	run.py	/^db_name = "sacred_db_1"$/;"	v
+end	run.py	/^        end="\\n",$/;"	v	class:my_main.LogMetrics
 ex	run.py	/^ex = Experiment("mnist_cnn")$/;"	v
 keras	src/data_processing/data_loader.py	/^from tensorflow import keras$/;"	i
 keras	src/models/model.py	/^from tensorflow import keras$/;"	i
 make_data	run.py	/^from src.data_processing.data_loader import make_data$/;"	i
 make_data	src/data_processing/data_loader.py	/^def make_data(params):$/;"	f
 mnist	src/data_processing/data_loader.py	/^from tensorflow.keras.datasets import mnist$/;"	i
+model	run.py	/^from pyexpat import model$/;"	i
 my_config	run.py	/^def my_config():$/;"	f
 my_main	run.py	/^def my_main(params_selected):$/;"	f
 my_metrics	run.py	/^def my_metrics(_run, logs):$/;"	f
 on_epoch_end	run.py	/^        def on_epoch_end(self, _, logs={}):$/;"	m	class:my_main.LogMetrics
 params	run.py	/^from src.config import params$/;"	i
 params	src/config.py	/^params = [{$/;"	v
+sep	run.py	/^        sep='\\n')$/;"	v	class:my_main.LogMetrics
 set_model	run.py	/^from src.models.model import set_model$/;"	i
 set_model	src/models/model.py	/^def set_model(params: dict, input_shape: tuple):$/;"	f
 train	run.py	/^from src.train import train$/;"	i

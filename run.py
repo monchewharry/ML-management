@@ -61,6 +61,10 @@ def my_main(params_selected):
     score = model.evaluate(x_test, y_test, verbose=0)
     print('Test loss:', score[0])
     print('Test accuracy:', score[1])
-    print("open omniboard by the following command...",
-          f"omniboard -m {url}:{db_name}", end="\n", sep='\n')
+    print(
+        "Open omniboard by the following command...",
+        f"omniboard -m {url}:{db_name}",
+        "Then Go to http://localhost:9000",
+        end="\n",
+        sep='\n')
 # }}}

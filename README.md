@@ -1,16 +1,10 @@
 # a machine learning version control example
 
-Thanks for the original contribution from the artical [Version your machine learning models with Sacred](https://www.hhllcks.de/blog/2018/5/4/version-your-machine-learning-models-with-sacred).
+Thanks for the original contribution from the artical [Version your machine learning models with Sacred](https://www.hhllcks.de/blog/2018/5/4/version-your-machine-learning-models-with-sacred) and [Managing Machine Learning projects](https://towardsdatascience.com/managing-machine-learning-projects-226a37fc4bfa).
 
-This example combines the `tensorflow.keras` job with [sacred](https://github.com/IDSIA/sacred) as version control and [omniboard](https://github.com/vivekratnavel/omniboard) as dashboard on Platform macOS-M1.
+This example reorganize the project [monchewharry/ML-manage-tfexample](https://github.com/monchewharry/ML-manage-tfexample) into general project structure as suggested by the mentioned credit above.
 
 ## structure
-
-- mnist_cnn.py: no sacred version control. Updated to keras module from tensorflow.
-- mnist_cnn_sacred.py: work with sacred. Updated to latest tensorflow and sacred setting.
-- mongodb-README.md : the setup of mongodb service for sacred.
-- omniboard-README.md : setup omniboard connection.
-
 
 ## More
 
