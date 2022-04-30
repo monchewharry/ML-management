@@ -7,6 +7,10 @@ This example reorganize the project [monchewharry/ML-manage-tfexample](https://g
 ```bash
 python run.py
 ```
+## todo
+
+- add hyperparameter tune (no duplicate experiment control)
+- add unittest
 
 ## structure
 
