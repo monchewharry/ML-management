@@ -4,7 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-Callback	run.py	/^from keras.callbacks import Callback$/;"	i
+Callback	run.py	/^from tensorflow.keras.callbacks import Callback$/;"	i
 Conv2D	src/models/model.py	/^from tensorflow.keras.layers import Conv2D, MaxPooling2D$/;"	i
 Dense	src/models/model.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
 Dropout	src/models/model.py	/^from tensorflow.keras.layers import Dense, Dropout, Flatten$/;"	i
